@@ -68,6 +68,7 @@
 		7C90D1A819906C46001726A4 /* button2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C90D1A319906C46001726A4 /* button2.png */; };
 		7C90D1A919906C46001726A4 /* buttonHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C90D1A419906C46001726A4 /* buttonHighlighted.png */; };
 		7C90D1AD19906C4F001726A4 /* fen.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C90D1AC19906C4F001726A4 /* fen.png */; };
+		7C90D1B019906C93001726A4 /* ClockBackgroundScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C90D1AE19906C93001726A4 /* ClockBackgroundScene.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -272,6 +273,8 @@
 		7C90D1A319906C46001726A4 /* button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2.png; sourceTree = "<group>"; };
 		7C90D1A419906C46001726A4 /* buttonHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonHighlighted.png; sourceTree = "<group>"; };
 		7C90D1AC19906C4F001726A4 /* fen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fen.png; sourceTree = "<group>"; };
+		7C90D1AE19906C93001726A4 /* ClockBackgroundScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClockBackgroundScene.cpp; path = ../Classes/ClockBackgroundScene.cpp; sourceTree = "<group>"; };
+		7C90D1AF19906C93001726A4 /* ClockBackgroundScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClockBackgroundScene.h; path = ../Classes/ClockBackgroundScene.h; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -352,6 +355,8 @@
 				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
 				1AFAF8B516D35DE700DB1158 /* HelloWorldScene.cpp */,
 				1AFAF8B616D35DE700DB1158 /* HelloWorldScene.h */,
+				7C90D1AE19906C93001726A4 /* ClockBackgroundScene.cpp */,
+				7C90D1AF19906C93001726A4 /* ClockBackgroundScene.h */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -692,6 +697,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				7C90D1B019906C93001726A4 /* ClockBackgroundScene.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>297D18D9-9CAC-443F-9C12-5A26DCFF52B8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Clock</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5B49F655-8ADE-47F6-B5F2-812114EACFCC</key>
+		<string>https://github.com/QiMeng/Cocos2d-x.3.2.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Clock/proj.ios_mac/Clock.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5B49F655-8ADE-47F6-B5F2-812114EACFCC</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/QiMeng/Cocos2d-x.3.2.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5B49F655-8ADE-47F6-B5F2-812114EACFCC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5B49F655-8ADE-47F6-B5F2-812114EACFCC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Cocos2d-x.3.2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
