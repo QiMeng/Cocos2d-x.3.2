@@ -12,6 +12,8 @@
 #include <iostream>
 #include "cocos2d.h"
 
+#include "HourHand.h"
+
 class ClockBackgroundScene : public cocos2d::Layer
 {
 public:
@@ -21,6 +23,19 @@ public:
     virtual bool init();
     
     CREATE_FUNC(ClockBackgroundScene);
+    
+    void MutUpdate(float tim);
+    
+public:
+    HourHand * m_hour;
+    HourHand * m_minute;
+    HourHand * m_second;
+    
+    
+public:
+    int nHour;
+    int nMinute;
+    int nSecond;
     
 };
 
