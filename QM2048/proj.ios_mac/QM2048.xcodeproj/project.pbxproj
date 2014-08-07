@@ -62,6 +62,7 @@
 		50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF629517ECD46A001EB2F8 /* Icon-100.png */; };
 		50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF62A017ECD613001EB2F8 /* Icon-29.png */; };
 		50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF62A117ECD613001EB2F8 /* Icon-50.png */; };
+		7CED9196199316DA00D1676D /* SimpleGestures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7CED9194199316DA00D1676D /* SimpleGestures.cpp */; };
 		7CF8628D19920F5200F97F9B /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7CF8628B19920F5200F97F9B /* Card.cpp */; };
 		7CF862931992108B00F97F9B /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7CF862911992108B00F97F9B /* GameScene.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
@@ -262,6 +263,8 @@
 		50EF629517ECD46A001EB2F8 /* Icon-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-100.png"; sourceTree = "<group>"; };
 		50EF62A017ECD613001EB2F8 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
 		50EF62A117ECD613001EB2F8 /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
+		7CED9194199316DA00D1676D /* SimpleGestures.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SimpleGestures.cpp; path = ../Classes/SimpleGestures.cpp; sourceTree = "<group>"; };
+		7CED9195199316DA00D1676D /* SimpleGestures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleGestures.h; path = ../Classes/SimpleGestures.h; sourceTree = "<group>"; };
 		7CF8628B19920F5200F97F9B /* Card.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Card.cpp; path = ../Classes/Card.cpp; sourceTree = "<group>"; };
 		7CF8628C19920F5200F97F9B /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = ../Classes/Card.h; sourceTree = "<group>"; };
 		7CF862911992108B00F97F9B /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameScene.cpp; path = ../Classes/GameScene.cpp; sourceTree = "<group>"; };
@@ -350,6 +353,8 @@
 				7CF862921992108B00F97F9B /* GameScene.h */,
 				7CF8628B19920F5200F97F9B /* Card.cpp */,
 				7CF8628C19920F5200F97F9B /* Card.h */,
+				7CED9194199316DA00D1676D /* SimpleGestures.cpp */,
+				7CED9195199316DA00D1676D /* SimpleGestures.h */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -684,6 +689,7 @@
 				7CF862931992108B00F97F9B /* GameScene.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				1AFAF8B816D35DE700DB1158 /* HelloWorldScene.cpp in Sources */,
+				7CED9196199316DA00D1676D /* SimpleGestures.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,6 +19,7 @@ public:
     static Card * createCard(int number, float width ,float heigth, cocos2d::Point position);
     int getNumber();
     void setNumber(int num);
+    void runNewNumberAction();
     
 private:
     void initCard(int number, float width ,float heigth, cocos2d::Point position);

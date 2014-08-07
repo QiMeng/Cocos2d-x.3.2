@@ -32,10 +32,29 @@ Card * Card::createCard(int number, float width ,float heigth, cocos2d::Point po
 int Card::getNumber(){
     return number;
 }
+
+
+void Card::runNewNumberAction() {
+    auto action = ScaleBy::create(0.05, 0.99);
+    runAction(Sequence::create(action,action->reverse(), NULL));
+}
+
+
 void Card::setNumber(int num){
     
     number = num;
     
+    if (num>0) {
+        labelCardNumber->setString(__String::createWithFormat("%i",num)->getCString());
+    }else {
+        labelCardNumber->setString("");
+    }
+    
+    if (num>=1024) {
+        labelCardNumber->setSystemFontSize(20);
+    }else {
+        labelCardNumber->setSystemFontSize(30);
+    }
     
     //判断数字的大小来调整颜色
 	if(number == 0){

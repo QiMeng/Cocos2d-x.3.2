@@ -14,6 +14,8 @@
 #include "cocos2d.h"
 #include "Card.h"
 
+#include "SimpleGestures.h"
+
 USING_NS_CC;
 
 class GameScene: public cocos2d::Layer {
@@ -23,11 +25,21 @@ public:
     static cocos2d::Scene * createScene();
     CREATE_FUNC(GameScene);
     
-    cocos2d::Point getPosition(int i, int j);
+    virtual bool onTouchBegan(Touch *touch, Event *unused_event);
+    virtual void onTouchMoved(Touch *touch, Event *unused_event);
+    virtual void onTouchEnded(Touch *touch, Event *unused_event);
     
 private:
     void createCardSprite(cocos2d::Size size);
     void createCardNumber(bool animation);
+    bool shouldCreateCardNumber();
+    
+    cocos2d::Point getPosition(int i, int j);
+    
+    bool doLeft();
+    bool doRight();
+    bool doUp();
+    bool doDown();
     
     
 private:
@@ -43,7 +55,7 @@ private:
     
     Card * cardArr[4][4];
     
-    
+    SimpleRecognizer *recognizer;
 };
 
 
