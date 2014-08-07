@@ -19,10 +19,18 @@ bool AppDelegate::applicationDidFinishLaunching() {
         glview = GLView::create("My Game");
         director->setOpenGLView(glview);
     }
-
+    
+    glview->setDesignResolutionSize(512, 384, ResolutionPolicy::EXACT_FIT);
+    
+    std::vector<std::string> searchPaths;
+    
+    searchPaths.push_back("sd");
+    
+    FileUtils::getInstance()->setSearchPaths(searchPaths);
+    
     // turn on display FPS
     director->setDisplayStats(true);
-
+    
     // set FPS. the default value is 1.0/60 if you don't call this
     director->setAnimationInterval(1.0 / 60);
 
