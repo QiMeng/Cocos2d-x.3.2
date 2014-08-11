@@ -17,6 +17,8 @@ public:
     
     // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);
+    
+    void scrollLand(float dt);
 };
 
 #endif // __HELLOWORLD_SCENE_H__
